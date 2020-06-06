@@ -1,5 +1,19 @@
+:root {
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
+}
+
 html {
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
   font-weight: 400;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--color-white);
 }
