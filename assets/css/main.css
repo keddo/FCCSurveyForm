@@ -5,6 +5,12 @@
   --color-green: #37af65;
 }
 
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
@@ -31,4 +37,76 @@ body::before {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+#main {
+  margin-top: 3em;
+}
+
+header {
+  text-align: center;
+  font-family: "Lato", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.3em;
+}
+
+#description {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  padding-bottom: 0.5em;
+}
+
+#survey-form {
+  margin-top: 1.5em;
+  padding: 1.5em;
+  background-color: var(--color-darkblue);
+  border-radius: 0.3em;
+}
+
+#survey-form input[type="text"],
+#survey-form input[type="email"],
+#survey-form input[type="number"],
+#survey-form label,
+#survey-form select,
+#survey-form textarea {
+  display: block;
+  width: 100%;
+}
+
+.form-group {
+  margin: 1em 0;
+}
+
+#survey-form input[type="text"],
+#survey-form input[type="email"],
+#survey-form input[type="number"],
+#survey-form select {
+  padding: 0.5em;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 400;
+  border: 1px solid #d9d9d9;
+  border-radius: 0.2em;
+}
+
+#survey-form select option {
+  padding: 0.5em;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#survey-form label {
+  margin-bottom: 0.6em;
+  font-size: 1.2rem;
+}
+
+#checkbox input[type="checkbox"] {
+  margin-right: 1em;
+  display: inline-block;
+  padding: 1em;
 }

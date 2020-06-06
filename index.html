@@ -35,7 +35,7 @@
                 <div class="form-group">
                     <label for="dropdown">Which option best describes your current role?</label>
                     <select name="dropdown" id="dropdown">
-                        <option value="select" disabled>Select current role</option>
+                        <option selected>Select current role</option>
                         <option value="Student">Student</option>
                         <option value="FulltimeJob">Full time Job</option>
                         <option value="Fulltimelearner">Full time learner</option>
@@ -44,28 +44,28 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="dropdown">Would you recommend freeCodeCamp to a friend?</label>
-                    <label>
-                        <input type="radio"> Definitely
+                    <label>Would you recommend freeCodeCamp to a friend?</label>
+                    <label for="definitely">
+                        <input type="radio" value="Definitely"> Definitely
                     </label>
                     <label>
-                        <input type="radio"> Maybe
+                        <input type="radio" value="Maybe"> Maybe
                     </label>
                     <label>
-                        <input type="radio"> Not sure
+                        <input type="radio" value="Notsure"> Not sure
                     </label>
                 </div>
                 <div class="form-group">
                     <label for="dropdown">What is your favorite feature of freeCodeCamp?</label>
                     <select name="dropdown" id="dropdown">
-                        <option value="select" disabled>Select an option</option>
+                        <option value="select" selected disabled>Select an option</option>
                         <option value="Challenges">Challenges</option>
                         <option value="Project">Projects/option>
                         <option value="Community">Community</option>
                         <option value="opensource">Open source</option>
                     </select>
                 </div>
-                <div class="form-group">
+                <div class="form-group" id="checkbox">
                     <label>What would you like to see improved? (Check all that apply)</label>
                     <label><input type="checkbox" value="frontend">Front-end Projects</label>
                     <label><input type="checkbox" value="backend">Back-end Projects</label>
