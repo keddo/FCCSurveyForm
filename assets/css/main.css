@@ -87,7 +87,7 @@ header {
 #survey-form input[type="email"],
 #survey-form input[type="number"],
 #survey-form select {
-  padding: 0.5em;
+  padding: 0.7em;
   outline: none;
   font-size: 1rem;
   font-weight: 400;
