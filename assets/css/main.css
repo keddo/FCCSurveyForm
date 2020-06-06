@@ -147,3 +147,9 @@ header {
     padding: 2.5em 3em;
   }
 }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 740px;
+  }
+}
