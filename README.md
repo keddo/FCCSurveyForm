@@ -1,4 +1,4 @@
-# Building with Responsive Design -- Free Code camp Tribute Page []
+# Building Responsive Design -- Free Code camp Survey Form
 
 > This project, consists of building a responsive website. By be following the free code camp user stories.
 [Build a Tribute Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
@@ -10,8 +10,6 @@ Additional description about the project and its features.
 
 - HTML,
 - CSS
-- Javascript
-
 ## Live Demo
 
 [Open Live Demo](https://rawcdn.githack.com/keddo/FCCSurveyForm/13f36df4deb121a484a312de00bacd117c76e3df/index.html)
